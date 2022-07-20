@@ -1,0 +1,55 @@
+.navigation{
+    float: right;
+    height: 100%;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+
+}
+
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 25px;
+    color: purple;
+}
+
+.navigation a:hover{
+    background-color: yellow;
+    color: #101010;
+}
+
+.inner-header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-content: stretch;
+    background: gray;
+}
+
+.image {
+    float:left;
+}
+
+.content {
+    font-size: 25px;
+}
+
+.logo-container {
+    width: 500px; color: purple;
+}
+
+.div-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+}
+
